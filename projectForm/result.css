@@ -1,0 +1,39 @@
+*,
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+.back {
+    background-color: green;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+}
+.back a {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+.page-result {
+    margin: 30px 0;
+    width: 790px;
+    height: 50vh;
+    background-color: #fff;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.7);
+}
+.result {
+    text-align: center;
+    background-color: #fff;
+}
+.notice {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(207, 235, 51);
+}
